@@ -402,7 +402,7 @@ def start_task(task_type, df_protect, df_group, df_pm, df_info, df_IER, sim_time
 if __name__ == '__main__':
     __spec__ = "ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>)"
     # df_q = pd.read_excel("data/问卷数据整理.xlsx")
-    df_protect = pd.read_excel("data/result_预测防护数据.xlsx")
+    df_protect = pd.read_excel("data/result_预测防护数据2.xlsx")
     df_pm = pd.read_csv("data/城市空气质量等级以及PM25数据.csv")
     df_group = pd.read_excel("data/不同类别人群防护异质数据2.xlsx")
     df_info = pd.read_csv("data/all_information_distribute.csv")
